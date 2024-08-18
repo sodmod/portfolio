@@ -1,4 +1,5 @@
 import {faInstagram, faLinkedinIn, faXTwitter} from '@fortawesome/free-brands-svg-icons';
+import myImage from "../assets/image/badmus.jpg";
 
 const phoneNumber = +2348183337363;
 const message = 'Hi, olusola badmus'
@@ -28,7 +29,7 @@ export const aboutdata = {
     " problems impacting millions of users",
   description: 'Software developer with 3+ years of experience, proficient with technologies like React JS,' +
     ' TypeScript, SpringBoot, JavaScript, ExpressJS, Php, Laravel, Spring, Agile and DevOps engineer',
-  image: "src/assets/image/badmus.jpg",
+  image: myImage,
 }
 
 // home data
