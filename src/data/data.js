@@ -28,7 +28,7 @@ export const aboutdata = {
     " problems impacting millions of users",
   description: 'Software developer with 3+ years of experience, proficient with technologies like React JS,' +
     ' TypeScript, SpringBoot, JavaScript, ExpressJS, Php, Laravel, Spring, Agile and DevOps engineer',
-  image: "src/assets/image/badmus.png",
+  image: "src/assets/image/badmus.jpg",
 }
 
 // home data
