@@ -1,21 +1,21 @@
 import React from 'react'
 import Card from 'react-bootstrap/Card';
 
-const EducationCard = () => {
+const EducationCard = ({data}) => {
   return (
     <Card  className="shadow-lg p-3 rounded mb-5">
-      
       <Card.Body>
-        <Card.Title>Degree</Card.Title>
+        <Card.Title>{data.degree}</Card.Title>
         <Card.Text className="college mb-0">
-          College/ University
+          {data.institute}
         </Card.Text>
         <Card.Text className="year mb-3">
-          Year
+          {data.year}
         </Card.Text>
-        <Card.Text className="grade mb-1">
-            Grade
-        </Card.Text>
+        {/*{data.grade?*/}
+        {/*  <Card.Text className="grade mb-1">*/}
+        {/*    Grade: {data.grade}*/}
+        {/*  </Card.Text>: null }*/}
       </Card.Body>
     </Card>
   )
