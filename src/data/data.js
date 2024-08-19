@@ -4,6 +4,7 @@ import chatApp from '../assets/image/chatApp.png';
 import blog from '../assets/image/blog.png';
 import travel from '../assets/image/travel.png';
 import pocket from '../assets/image/pocket.png';
+import momas from  '../assets/image/momas-logo.png';
 
 const phoneNumber = +2348183337363;
 const message = 'Hi, olusola badmus'
@@ -79,7 +80,7 @@ export const experiencedata = [
     title: "Software Engineer",
     subtitle: "Momas Electricity Meter Manufacturing Company, Lagos, Nigeria.",
     description: 'My First Internship helped me to gain some knowledge on backend development.',
-    image: "./image/project.jpg",
+    image: momas,
     githubLink: "https://github.com/sodmod",
     // website: "https://google.com",
   }

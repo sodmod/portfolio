@@ -3,6 +3,7 @@ import React from 'react'
 import './contact.css'
 import CircleButton from '../CircleButton/CircleButton'
 import {socialLinksObjectArray} from "../../data/data.js";
+import {handleEmailClick} from "../../utils/utils.js";
 
 const Contact = () => {
   const handleClick = (url) => {
@@ -17,7 +18,7 @@ const Contact = () => {
           socialLinksObjectArray.map((social, key) =>
             <CircleButton key={key} icon={social.icon} onClick={() => handleClick(social.link)}/>
           )}
-        <CircleButton icon={faEnvelope} onClick={() => handleClick('https://google.com')}/>
+        <CircleButton icon={faEnvelope} onClick={() => handleEmailClick()}/>
       </div>
 
     </section>

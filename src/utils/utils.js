@@ -12,3 +12,11 @@ export const handleDownloadClick = () => {
   link.click();
   document.body.removeChild(link);
 }
+
+export const handleEmailClick=()=>{
+  const link = document.createElement('a');
+  link.href = 'mailto:badmussodiq123@outlook.com';
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
