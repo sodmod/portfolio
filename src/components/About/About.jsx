@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css';
 import {Col, Row} from "react-bootstrap";
-import {aboutdata, java, javascript, node_js, php, spring_boot} from '../../data/data';
+import {aboutdata, java, javascript, node_js, spring_boot} from '../../data/data';
 import {Zoom} from "react-awesome-reveal";
 
 const About = () => {
@@ -22,7 +22,7 @@ const About = () => {
             </div>
           </Col>
           <Col>
-          <img src={aboutdata.image} height="300" width="400" alt="your image"/>
+            <img src={aboutdata.image} height="300" width="400" alt="your image"/>
           </Col>
         </Row>
       </Zoom>

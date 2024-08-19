@@ -1,5 +1,9 @@
 import {faInstagram, faLinkedinIn, faXTwitter} from '@fortawesome/free-brands-svg-icons';
-import myImage from "../assets/image/badmus.jpg";
+import myImage from '../assets/image/badmus.jpg';
+import chatApp from '../assets/image/chatApp.png';
+import blog from '../assets/image/blog.png';
+import travel from '../assets/image/travel.png';
+import pocket from '../assets/image/pocket.png';
 
 const phoneNumber = +2348183337363;
 const message = 'Hi, olusola badmus'
@@ -85,37 +89,59 @@ export const experiencedata = [
 export const projectsdata = [
   {
     id: 1,
-    title: "AXB Application",
-    subtitle: "API Based Application",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text",
-    image: "./assets/image/project.jpg",
-    githubLink: "https://github.com/",
-    websiteLink: "https://google.com",
+    title: 'Olutan Chat Application',
+    subtitle: 'Fullstack Based Personal Application',
+    description: 'Interactive Chat Application: Developed a demo web application enabling users to share moments and communicate effectively',
+    image: chatApp,
+    githubLink: 'https://github.com/sodmod',
+    websiteLink: 'https://chatting-application-interface.vercel.app/',
     downloadLink: null,
-    tech: [' HTML ', ' CSS ']
+    tech: ['SPRING BOOT, ', 'REACT']
 
   },
   {
     id: 2,
-    title: "Personal Application",
-    subtitle: "Personal Application",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    image: "../assets/image/project.jpg",
-    githubLink: "https://github.com/",
-    websiteLink: "https://google.com",
+    title: `Blog Application`,
+    subtitle: `Fullstack Based Personal Application`,
+    description: 'Dynamic Blogging Platform: Designed and developed a demo web application for blogging, enabling users to share content effortlessly.',
+    image: blog,
+    githubLink: `https://github.com/sodmod`,
+    websiteLink: 'https://blog-app-gilt-alpha.vercel.app/',
     downloadLink: null,
-    tech: [' HTML ', ' CSS ']
+    tech: ['SPRING BOOT, ', 'NEXTJS, ', 'TYPESCRIPT']
   },
   {
     id: 3,
-    title: "Personal Application",
-    subtitle: "Personal Application",
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.",
-    image: "../assets/image/project.jpg",
-    githubLink: "https://github.com/",
-    websiteLink: "https://google.com",
+    title: `Travel Application`,
+    subtitle: `Frontend Based Personal Application`,
+    description: 'Innovative Travel Application: Created a demo web application for sharing travel experiences, enabling users to document and share their journeys.',
+    image: travel,
+    githubLink: `https://github.com/sodmod`,
+    websiteLink: 'https://travel-wide.vercel.app/',
     downloadLink: null,
-    tech: [' HTML ', ' CSS ']
+    tech: ['REACTJS, ', 'CSS']
+  },
+  {
+    id: 4,
+    title: 'Paystack Application',
+    subtitle: 'Fullstack Based Personal Application',
+    description: 'Secure Payment Integration: Designed and developed a Java-based application to interface with the Paystack payment web service, facilitating secure and reliable transactions.'
+    , image: chatApp,
+    githubLink: `https://github.com/sodmod`,
+    websiteLink: 'https://paystack-interface.vercel.app/',
+    downloadLink: null,
+    tech: [' SPRING BOOT, ', 'REACT, ', 'PAYSTACK API']
+  },
+  {
+    id: 4,
+    title: 'Pocket Application',
+    subtitle: 'Fullstack Based Personal Application',
+    description: '',
+    image: pocket,
+    githubLink: `https://github.com/sodmod`,
+    websiteLink: 'https://pocket-app-zeta.vercel.app/',
+    downloadLink: null,
+    tech: [' SPRING BOOT, ', 'REACT, ', 'PAYSTACK API']
   }
 ]
 

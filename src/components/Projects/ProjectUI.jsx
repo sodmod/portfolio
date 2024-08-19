@@ -15,7 +15,7 @@ const ProjectUI = () => {
           <Container>
             <Row>
               {projectsdata.map((data, key) => (
-                <Col key={key}>
+                <Col key={key} style={{paddingBottom: '3rem'}}>
                   <ProjectCard data={data}/>
                 </Col>
               ))}

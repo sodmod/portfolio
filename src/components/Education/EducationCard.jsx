@@ -3,7 +3,7 @@ import Card from 'react-bootstrap/Card';
 
 const EducationCard = ({data}) => {
   return (
-    <Card  className="shadow-lg p-3 rounded mb-5">
+    <Card className="shadow-lg p-3 rounded mb-5">
       <Card.Body>
         <Card.Title>{data.degree}</Card.Title>
         <Card.Text className="college mb-0">
